@@ -15,4 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('guest.home'); //questo è il nome del file che riconosce, li cerca in resources.views
-});
+})->name('');
+
+Route::get('/', function () {
+    return view('guest.home'); //questo è il nome del file che riconosce, li cerca in resources.views
+})->name('');
+
+Route::get('/', function () {
+    return view('guest.home'); //questo è il nome del file che riconosce, li cerca in resources.view
+})->name('');
