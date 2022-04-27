@@ -1,7 +1,7 @@
-@extends('guest.template.base')
+@extends('guest.template.template_file')
 
 @section('title', 'DC Comics - Home')
 
-@section('header')
-    <h1>Titolo di prova</h1>
+@section('content')
+    <h1>Sezione header</h1>
 @endsection

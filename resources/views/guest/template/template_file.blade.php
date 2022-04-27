@@ -7,6 +7,11 @@
     <title>@yield('title')</title>
 </head>
 <body>
-    @yield('header')
+    @include('guest.partials.header')
+
+    @yield('content')
+
+    @include('guest.partials.footer')
+
 </body>
 </html>
