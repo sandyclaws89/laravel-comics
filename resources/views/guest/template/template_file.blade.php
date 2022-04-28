@@ -10,7 +10,7 @@
     @include('guest.partials.header')
 
     @yield('content')
-
+    @include ('guest.partials.main')
     @include('guest.partials.footer')
 
 </body>

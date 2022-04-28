@@ -1,4 +1,7 @@
 <footer>
+    <h1>
+        footer
+    </h1>
     <div class="left-footer">
         <div class="column-list">
             <h3>
